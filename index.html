@@ -1,75 +1,74 @@
 
+
 <!-- index.html -->
-<div class="container header-inner">
-<h1 class="logo">Gokulji</h1>
-<nav class="nav">
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
-</div>
-</header>
-
-
-<main>
-<section class="hero">
 <div class="container">
-<h2>Hi — I'm Gokul</h2>
-<p class="lead">A developer who builds clean, simple web experiences. I create apps, design UIs and solve problems.</p>
-<p><a class="btn" href="#projects">See my work</a></p>
+<img src="https://via.placeholder.com/150" alt="profile" class="profile-pic">
+<h2>Hi — I'm <span class="highlight">Gokul</span></h2>
+<p class="lead">A developer who loves crafting colorful, interactive, and fun web experiences 🌟</p>
+<p><a class="btn" href="#projects">Explore My Work</a></p>
 </div>
 </section>
 
 
 <section id="about" class="container about">
-<h3>About me</h3>
-<p>I'm a full‑stack developer focused on readable code and intuitive interfaces. I enjoy working on web apps, automation, and data projects.</p>
-<ul class="skills">
-<li>HTML/CSS/JS</li>
-<li>React / Vue</li>
-<li>Node / Python</li>
-</ul>
+<h3>✨ About me</h3>
+<p>I'm a full‑stack developer with a passion for creativity and design. I build vibrant user experiences that balance style with functionality.</p>
 </section>
 
 
 <section id="projects" class="container projects">
-<h3>Projects</h3>
+<h3>🎨 Projects</h3>
 <div class="cards">
 <article class="card">
 <h4>Project A</h4>
-<p>Short description of the project. Tech stack and what it does.</p>
+<p>A fun web app built with React and Firebase. Features real‑time chat and colorful UI.</p>
 <a class="link" href="#">View</a>
 </article>
 <article class="card">
 <h4>Project B</h4>
-<p>Short description of the project. Tech stack and what it does.</p>
+<p>Mobile‑friendly portfolio site designed with animations and bold gradients.</p>
 <a class="link" href="#">View</a>
 </article>
 <article class="card">
 <h4>Project C</h4>
-<p>Short description of the project. Tech stack and what it does.</p>
+<p>Data visualization dashboard with D3.js — turning numbers into vibrant stories.</p>
 <a class="link" href="#">View</a>
 </article>
 </div>
 </section>
 
 
+<section id="skills" class="container skills">
+<h3>⚡ Skills</h3>
+<div class="skill-bars">
+<div class="bar"><span>HTML & CSS</span><div class="progress html"></div></div>
+<div class="bar"><span>JavaScript</span><div class="progress js"></div></div>
+<div class="bar"><span>React</span><div class="progress react"></div></div>
+<div class="bar"><span>Python</span><div class="progress python"></div></div>
+</div>
+</section>
+
+
 <section id="contact" class="container contact">
-<h3>Contact</h3>
-<p>Want to work together? Email me at <a href="mailto:you@example.com">you@example.com</a> or reach out on LinkedIn.</p>
+<h3>📬 Contact</h3>
+<form class="contact-form">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message" rows="4" required></textarea>
+<button type="submit">Send Message</button>
+</form>
 </section>
 </main>
 
 
 <footer class="site-footer">
 <div class="container">
-<small>© <span id="year"></span> Gokulji. Built with ❤️</small>
+<small>© <span id="year"></span> Gokulji | Made with 💖 & Colors</small>
 </div>
 </footer>
 
 
 <script>
-// small script to set current year
 document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 </body>
