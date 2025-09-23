@@ -1,31 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Lithika</h1>
-        <p>Web Developer | Designer | Coder</p>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<!-- index.html -->
+<div class="container header-inner">
+<h1 class="logo">Gokulji</h1>
+<nav class="nav">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm a passionate web developer with a love for creating clean websites.</p>
-    </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>P
+<main>
+<section class="hero">
+<div class="container">
+<h2>Hi — I'm Gokul</h2>
+<p class="lead">A developer who builds clean, simple web experiences. I create apps, design UIs and solve problems.</p>
+<p><a class="btn" href="#projects">See my work</a></p>
+</div>
+</section>
+
+
+<section id="about" class="container about">
+<h3>About me</h3>
+<p>I'm a full‑stack developer focused on readable code and intuitive interfaces. I enjoy working on web apps, automation, and data projects.</p>
+<ul class="skills">
+<li>HTML/CSS/JS</li>
+<li>React / Vue</li>
+<li>Node / Python</li>
+</ul>
+</section>
+
+
+<section id="projects" class="container projects">
+<h3>Projects</h3>
+<div class="cards">
+<article class="card">
+<h4>Project A</h4>
+<p>Short description of the project. Tech stack and what it does.</p>
+<a class="link" href="#">View</a>
+</article>
+<article class="card">
+<h4>Project B</h4>
+<p>Short description of the project. Tech stack and what it does.</p>
+<a class="link" href="#">View</a>
+</article>
+<article class="card">
+<h4>Project C</h4>
+<p>Short description of the project. Tech stack and what it does.</p>
+<a class="link" href="#">View</a>
+</article>
+</div>
+</section>
+
+
+<section id="contact" class="container contact">
+<h3>Contact</h3>
+<p>Want to work together? Email me at <a href="mailto:you@example.com">you@example.com</a> or reach out on LinkedIn.</p>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<small>© <span id="year"></span> Gokulji. Built with ❤️</small>
+</div>
+</footer>
+
+
+<script>
+// small script to set current year
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
